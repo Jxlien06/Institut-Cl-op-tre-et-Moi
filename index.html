@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Institut Cléopâtre et Moi à Gundershoffen. L'alliance de la haute technologie et du soin. Épilation définitive, Photorajeunissement, Onglerie." />
+  <title>Institut Cléopâtre et Moi | Gundershoffen</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Manrope:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Skip link (accessibilité + UX clavier) -->
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <!-- Overlay Mobile -->
+  <div class="nav-overlay" id="navOverlay" hidden></div>
+
+  <nav class="navbar" id="navbar" aria-label="Navigation principale">
+    <div class="container nav-container">
+<a href="#top" class="logo-link" aria-label="Retour en haut - Institut Cléopâtre et Moi">
+  <span class="logo-mark" aria-hidden="true">
+    <img src="logo-i.png" alt="" class="logo-img">
+  </span>
+
+  <span class="logo-text">
+    <span class="logo-name">Institut Cléopâtre et Moi</span>
+    <span class="logo-city">GUNDERSHOFFEN</span>
+  </span>
+</a>
+
+
+      <div class="nav-actions">
+        <ul class="nav-links" id="navMenu">
+          <li><a href="#expertise" class="nav-link">L'Expertise</a></li>
+          <li><a href="#soins" class="nav-link">Les Soins</a></li>
+          <li><a href="#tarifs" class="nav-link">Tarifs</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+
+          <li class="mobile-only">
+            <a class="btn btn-primary btn-small" href="tel:+33388728364">Appeler maintenant</a>
+          </li>
+          <li class="mobile-only">
+            <a class="btn btn-outline btn-small" href="#contact">Itinéraire & infos</a>
+          </li>
+        </ul>
+
+        <a href="tel:+33388728364" class="btn btn-primary btn-cta mobile-hide">Prendre RDV</a>
+
+        <button class="burger" id="burger" type="button"
+          aria-label="Ouvrir le menu"
+          aria-controls="navMenu"
+          aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-circle" aria-hidden="true"></div>
+
+    <div class="container hero-content">
+      <div class="hero-text reveal">
+        <span class="badge-clinique">Technologie & Esthétique</span>
+
+        <h1 class="hero-headline">
+          Révélez votre beauté à la <em>lumière</em> de l'expertise.
+        </h1>
+
+        <p class="hero-sub">
+          Votre centre de référence à Gundershoffen pour l'épilation définitive, le photorajeunissement et les soins haute précision.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Diagnostic gratuit</a>
+          <a href="#soins" class="btn btn-outline">Découvrir les soins</a>
+        </div>
+
+        <!-- Réassurance / conversion -->
+        <div class="trust-row" aria-label="Points clés">
+          <div class="trust-item">
+            <span class="trust-icon" aria-hidden="true">✓</span>
+            <span class="trust-text"><strong>Bilan offert</strong> & sans engagement</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon" aria-hidden="true">⌁</span>
+            <span class="trust-text"><strong>Protocole</strong> personnalisé</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-icon" aria-hidden="true">✦</span>
+            <span class="trust-text"><strong>Sur rendez-vous</strong> (lun-sam)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper reveal">
+        <figure class="hero-figure">
+          <img
+            src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=1200&auto=format&fit=crop"
+            alt="Institut de beauté : soins visage et expertise"
+            class="hero-img"
+            loading="lazy"
+          />
+          <figcaption class="sr-only">Institut Cléopâtre et Moi — expertise et haute technologie.</figcaption>
+        </figure>
+
+        <div class="stat-card" aria-label="Technologie maîtrisée">
+          <strong>100%</strong>
+          <span>Technologie maîtrisée</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="expertise" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Pourquoi nous choisir</span>
+          <h2 class="section-title">L'alliance du soin et de la technologie</h2>
+          <div class="separator"></div>
+          <p class="section-desc">
+            Une approche clinique de la beauté : protocoles stricts, hygiène irréprochable, résultats mesurables et conseils personnalisés.
+          </p>
+        </div>
+
+        <div class="expertise-grid">
+          <article class="service-card reveal">
+            <div class="service-top">
+              <div class="service-icon" aria-hidden="true">✨</div>
+              <h3 class="service-title">Épilation définitive</h3>
+            </div>
+            <p class="service-desc">
+              Technologie de lumière pulsée dernière génération : efficace, sécurisée, adaptée à votre phototype après bilan.
+            </p>
+            <div class="service-foot">
+              <a href="#tarifs" class="service-link">Voir les forfaits</a>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-top">
+              <div class="service-icon" aria-hidden="true">🧬</div>
+              <h3 class="service-title">Photorajeunissement</h3>
+            </div>
+            <p class="service-desc">
+              Cible les taches pigmentaires, rougeurs et signes de l’âge pour un teint plus uniforme, lumineux et net.
+            </p>
+            <div class="service-foot">
+              <a href="#contact" class="service-link">Demander un diagnostic</a>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-top">
+              <div class="service-icon" aria-hidden="true">🌿</div>
+              <h3 class="service-title">Visage & regard</h3>
+            </div>
+            <p class="service-desc">
+              Lash Filler, Microshading… Sublimez vos traits naturels avec précision, délicatesse et rendu maîtrisé.
+            </p>
+            <div class="service-foot">
+              <a href="#tarifs" class="service-link">Découvrir</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="soins" class="section section-grey">
+      <div class="container">
+        <div class="feature-split reveal">
+          <div class="feature-img" aria-label="Visuel épilation définitive"></div>
+
+          <div class="feature-content">
+            <span class="badge-clinique">Service signature</span>
+            <h2 class="section-title">L'épilation définitive</h2>
+
+            <p class="section-desc" style="margin-bottom: 1.75rem;">
+              Fini la contrainte de l'épilation mensuelle. Notre protocole expert garantit des résultats visibles dès les premières séances.
+              Avant tout traitement, nous réalisons un <strong>bilan gratuit</strong> pour analyser votre phototype.
+            </p>
+
+            <ul class="checklist" aria-label="Points clés du protocole">
+              <li>Bilan de peau offert & sans engagement</li>
+              <li>Protocole personnalisé (hommes & femmes)</li>
+              <li>Technologie respectueuse de l’épiderme</li>
+              <li>Suivi rigoureux à chaque séance</li>
+            </ul>
+
+            <div class="feature-cta">
+              <a href="#contact" class="btn btn-primary">Réserver mon bilan</a>
+              <a href="#tarifs" class="btn btn-outline">Voir les tarifs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tarifs" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-subtitle">Carte des soins</span>
+          <h2 class="section-title">Tarifs & prestations</h2>
+          <div class="separator"></div>
+          <p class="section-desc">Des tarifs clairs. Si besoin, nous confirmons la prestation idéale lors du diagnostic.</p>
+        </div>
+
+        <div class="tabs-wrapper reveal" aria-label="Tarifs par catégorie">
+          <div class="tabs-header" role="tablist" aria-label="Catégories de tarifs">
+            <button class="tab-btn active" type="button" role="tab" aria-selected="true" aria-controls="epil-femme" data-tab="epil-femme">Épilation femme</button>
+            <button class="tab-btn" type="button" role="tab" aria-selected="false" aria-controls="epil-homme" data-tab="epil-homme">Épilation homme</button>
+            <button class="tab-btn" type="button" role="tab" aria-selected="false" aria-controls="visage" data-tab="visage">Visage & regard</button>
+            <button class="tab-btn" type="button" role="tab" aria-selected="false" aria-controls="ongles" data-tab="ongles">Onglerie</button>
+          </div>
+
+          <div id="epil-femme" class="price-list active" role="tabpanel" tabindex="0">
+            <div class="price-item">
+              <div><span class="price-name">Lèvre ou menton</span></div>
+              <span class="price-val">10€</span>
+            </div>
+            <div class="price-item">
+              <div><span class="price-name">Aisselles</span></div>
+              <span class="price-val">12€</span>
+            </div>
+            <div class="price-item">
+              <div><span class="price-name">Maillot intégral</span></div>
+              <span class="price-val">15€</span>
+            </div>
+            <div class="price-item">
+              <div><span class="price-name">Demi-jambes</span></div>
+              <span class="price-val">18€</span>
+            </div>
+            <div class="price-item highlight">
+              <div>
+                <span class="price-name">Forfait : 1/2 jambes + maillot + aisselles</span>
+                <span class="price-desc">Le trio essentiel</span>
+              </div>
+              <span class="price-val">38€</span>
+            </div>
+          </div>
+
+          <div id="epil-homme" class="price-list" role="tabpanel" tabindex="0">
+            <div class="price-item">
+              <div><span class="price-name">Dos ou torse</span></div>
+              <span class="price-val">30€</span>
+            </div>
+            <div class="price-item">
+              <div><span class="price-name">Aisselles</span></div>
+              <span class="price-val">14€</span>
+            </div>
+            <div class="price-item">
+              <div><span class="price-name">Jambes entières</span></div>
+              <span class="price-val">37€</span>
+            </div>
+          </div>
+
+          <div id="visage" class="price-list" role="tabpanel" tabindex="0">
+            <div class="price-item">
+              <div><span class="price-name">Soin photorajeunissement</span><span class="price-desc">Cure éclat & anti-âge</span></div>
+              <span class="price-val">90€</span>
+            </div>
+            <div class="price-item">
+              <div><span class="price-name">Microshading</span><span class="price-desc">Sourcils parfaits</span></div>
+              <span class="price-val">Sur devis</span>
+            </div>
+            <div class="price-item">
+              <div><span class="price-name">Lash Filler</span><span class="price-desc">Rehaussement & soin des cils</span></div>
+              <span class="price-val">Sur devis</span>
+            </div>
+          </div>
+
+          <div id="ongles" class="price-list" role="tabpanel" tabindex="0">
+            <div class="price-item">
+              <div><span class="price-name">Pose complète gel</span></div>
+              <span class="price-val">Sur demande</span>
+            </div>
+            <div class="price-item">
+              <div><span class="price-name">Semi-permanent</span></div>
+              <span class="price-val">Sur demande</span>
+            </div>
+          </div>
+
+          <div class="tabs-footer">
+            <p class="tiny-note">
+              *Tarifs indicatifs susceptibles d'évoluer. Solarium : 99€ les 10 séances.
+            </p>
+            <div class="tabs-cta">
+              <a href="#contact" class="btn btn-primary">Demander un créneau</a>
+              <a href="tel:+33388728364" class="btn btn-outline">Appeler</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <span class="badge-clinique badge-invert">Contact</span>
+            <h3 class="contact-title">Prenez rendez-vous</h3>
+            <p class="contact-sub">
+              Pour une demande d'information ou pour planifier votre bilan gratuit, contactez-nous.
+            </p>
+
+            <div class="info-block">
+              <span class="info-label">Adresse</span>
+              <div class="info-value">11 Grand Rue, 67110 Gundershoffen</div>
+            </div>
+
+            <div class="info-block">
+              <span class="info-label">Téléphone</span>
+              <div class="info-value"><a href="tel:+33388728364">03 88 72 83 64</a></div>
+            </div>
+
+            <div class="info-block">
+              <span class="info-label">Horaires</span>
+              <div class="info-value info-hours">
+                Lundi - Samedi : Sur rendez-vous<br />
+                Dimanche : Fermé
+              </div>
+            </div>
+
+            <div class="contact-actions">
+              <a href="tel:+33388728364" class="btn btn-primary btn-light">Appeler</a>
+              <a
+                class="btn btn-outline btn-light"
+                target="_blank" rel="noopener"
+                href="https://www.google.com/maps/search/?api=1&query=11%20Grand%20Rue%2C%2067110%20Gundershoffen">
+                Itinéraire
+              </a>
+            </div>
+
+            <p class="contact-note">
+              Réponse rapide pendant les heures d'ouverture. Pour le diagnostic, prévoyez quelques minutes : on vous guide.
+            </p>
+          </div>
+
+          <div class="map-container reveal" aria-label="Carte Google Maps">
+            <iframe
+              title="Carte - Institut Cléopâtre et Moi"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.897374026367!2d7.6521!3d48.8929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47969e7f8e8e8e8f%3A0x123456789abcdef!2s11%20Grand%20Rue%2C%2067110%20Gundershoffen!5e0!3m2!1sfr!2sfr!4v1620000000000!5m2!1sfr!2sfr"
+              width="100%" height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">Institut Cléopâtre et Moi</div>
+          <p class="footer-desc">Expertise Beauté & Épilation Définitive en Alsace.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#contact">Contact</a>
+          <a href="#tarifs">Tarifs</a>
+          <a href="tel:+33388728364">Appeler</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Institut Cléopâtre et Moi. Créé par Julien SCHILLINGER.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating CTA mobile (conversion) -->
+  <div class="floating-cta" id="floatingCta" aria-label="Actions rapides">
+    <a class="floating-btn" href="tel:+33388728364" aria-label="Appeler">
+      <span aria-hidden="true">📞</span>
+      <span>Appeler</span>
+    </a>
+    <a class="floating-btn floating-btn-primary" href="#contact" aria-label="Réserver un bilan">
+      <span aria-hidden="true">✨</span>
+      <span>Bilan</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
